@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Craft Smoothie"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <background-img src ="s2.jpg">
+    <h1>"Create Your Taste: Smoothie Symphony"</h1>
+    <form id="smoothie-form">
+        <!-- Options for ingredients -->
+        
+        <div class="container">
+            <div>
+                <label for="base">What's for base:</label>
+                <select id="base" name="base">
+                    <option value="milk">Milk</option>
+                    <option value="yogurt">Yogurt</option>
+                    <option value="juice">Juice</option>
+                </select>
+            </div>
+            <div>
+        <label for="fruit">Flavor Palette:</label>
+        <select id="fruit" name="fruit">
+            <option value="banana">Banana</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="mango">mango</option>
+            <option value="peach">peach</option>
+            <option value="pineapple">pineapple</option>
+            
+        </select>
+    </div>
+    <div>
+        <label for="fruit">Toppings:</label>
+        <select id="toppings" name="toppings">  
+                <option value="cherry">Cherry</option>
+                <option value="mango">Mango</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="strawberry">Strawberry</option>
+        </select>
+                
+    </div>
+    </div>
+    <div class="container">
+        <div>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extra large">Extra Large</option>
+        </select>
+        </div>
+
+        <div>
+        <button type="submit">Order</button>
+        </div>
+    </form>
+
+    <div id="smoothie-description"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
